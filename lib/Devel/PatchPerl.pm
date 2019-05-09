@@ -187,7 +187,7 @@ my @patch = (
               [ \&_patch_patchlevel ],
               [ \&_patch_develpatchperlversion ],
               [ \&_patch_errno_gcc5 ],
-              [ \&_patch_conf_fwrapv ],
+             #Breaks 5.16.3 [ \&_patch_conf_fwrapv ],
               [ \&_patch_utils_h2ph ],
               [ \&_patch_lib_h2ph ],
             ],
